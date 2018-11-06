@@ -5,3 +5,16 @@ c=int(input("Enter third side: "))
 s=(a+b+c)/2
 area=math.sqrt(s*(s-a)*(s-b)*(s-c))
 print("Area of the triangle is: ",round(area,2))
+
+
+
+
+import math
+radius=45
+if radius >= 0:
+ area = radius * radius * math.pi
+ print("The area for the circle of radius", radius, "is" , area)
+ 
+else:
+    print("Negative  input")
+
